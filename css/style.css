@@ -1,0 +1,183 @@
+body
+{
+	padding-top: 0;
+}
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title
+{
+	margin: 70px 0;
+}
+.title h2
+{
+	margin: 20px 0;
+	font-weight: bold;
+	font-size: 35px;
+}
+.title p
+{
+	color: #b68834;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/* Start header */
+
+#main-header
+{
+	background: url('../img/header/header-bg.jpg') center center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.navbar
+{
+	z-index: 2;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.navbar .navbar-brand
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+.navbar .nav-link
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;	
+    top:10%;
+    right: 10%;
+    font-family: cursive;
+	padding: 0;
+	z-index: 99999;
+}
+#mug
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+    top: 100px;
+    left: 35px;
+	z-index: 1;
+	text-align: center;
+	
+
+}
+/* End header */
+
+/* Satrt Products */
+
+
+.products .box-product
+{
+	border:none;
+	padding: 10px;
+	margin: 10px 5px;
+	border-radius: 10px;
+	background: #f3dfb8;
+	
+}
+.products .box-product .price
+{
+	color: #b68834;
+	font-size: 20px;
+	font-weight: bold;
+}
+.products .box-product p
+{
+	color: #8f8c8c;
+}
+
+/* End products */
+
+/* Start Coffee Kind */
+
+.coffee-kind img
+{
+	margin-bottom: 30px;
+    max-width: 100%;
+	width:100%;
+	margin-left: 0;
+}
+
+/* End Coffee Kind */
+
+/* Start features */
+
+.features
+{
+	background: url("../img/features/Capture.PNG") center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+.features .box-feat
+{
+	margin: 200px 10px;
+}
+.features p
+{
+	color: #fff !important;
+}
+/* End Features */
+
+
+/* Start sign up */
+.signup button
+{
+	display: block;
+	width: 100%;
+}
+.signup textarea
+{
+	height: 150px;
+}
+
+/* End sign up */
+/* Start Footer */
+
+footer
+{
+	background: url("../img/footer-bg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	padding: 145px 0;
+	color: #fff;
+}
+footer i
+{
+	font-size: 25px;
+	padding-left: 10px;
+}
+footer i:hover
+{
+	color: #b68834;
+	
+}
+footer .copyright span
+{
+	color: #b68834;
+	font-weight: bold;
+}
+footer .copyright
+{
+    margin-top: 20px;
+}
+/* End Footer */
